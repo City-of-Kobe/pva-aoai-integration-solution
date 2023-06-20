@@ -71,8 +71,8 @@
 3. 会話の文脈をリセットしたい場合は、「リセット」とチャットに対して入力することでリセットできる  
 
 ## ライセンス・許諾
-このリポジトリで公開しているソリューションの著作権は神戸市に帰属しますが、 [MIT](/blob/main/LICENSE) のもと配布されています。
-[MIT](/blob/main/LICENSE) に従えば、どなたでも利用、改変、及び再配布が可能です。
+このリポジトリで公開しているソリューションの著作権は神戸市に帰属しますが、 [MIT]([/blob/main/LICENSE](https://github.com/City-of-Kobe/pva-aoai-integration-solution/blob/main/LICENSE)) のもと配布されています。
+[MIT](https://github.com/City-of-Kobe/pva-aoai-integration-solution/blob/main/LICENSE) に従えば、どなたでも利用、改変、及び再配布が可能です。
 なお、このソリューションを利用するために必要な、Microsoftの Azure 及び Azure OpenAI Service, 並びに Power Apps, Power Automate, Power Virtual Agents 等の製品は、Microsoft Corporation の登録商標です。
 
 ## クレジット
