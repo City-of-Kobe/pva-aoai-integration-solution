@@ -11,9 +11,9 @@
 
 ## 導入方法
 以下の手順に従って導入してください。
-なお、以下の手順を行う前提として、Power Virtual Agentsが既に利用できる状態であり、かつ、Azure AD の設定および Azure OpenAI を利用するための Azureサブスクリプションの作成までを行なっておくこと。
-また、Teamsの特定のチームで利用する場合は、予めDataverse for Teams環境を用意しておくこと。  
-※ Dataverse for Teams環境は、Teams上からPower Appsを開き、当該チーム上で新規アプリを作成することで環境が作成できる(実際にキャンバスアプリ等を作成する必要はない)
+なお、以下の手順を行う前提として、Power Virtual Agentsが既に利用できる状態であり、かつ、Azure AD の設定および Azure OpenAI を利用するための Azureサブスクリプションの作成までが完了している必要があります。
+また、Teamsの特定のチームで利用する場合は、予めDataverse for Teams環境を用意しておいてください。  
+※ Dataverse for Teams環境は、Teams上からPower Appsを開き、当該チーム上で新規アプリを作成することで環境が作成できます。(実際にキャンバスアプリ等を作成する必要はありません)
 
 1. Azure OpenAI Service においてGPTのインスタンスをセットアップし、API KeyとURIを取得  
 ※ API KeyとURIは、Azure OpenAI Studioの、プレイグラウンド > チャット > チャットセッション > コードの表示 から確認できます。
