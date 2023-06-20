@@ -77,5 +77,5 @@
 
 ## クレジット
 このソリューションは、Henry Jammes氏によって公開されているソリューションをベースに作成しました。
-- <a href="https://github.com/microsoft/PowerVirtualAgentsSamples/tree/c75ea6c4e0311e59a98d70b582c8e8184edca638" target="_blank">GitHub</a>
-- <a href="https://powerusers.microsoft.com/t5/Power-Platform-Integrations/Integrate-a-PVA-chatbot-with-Azure-OpenAI-ChatGPT-using-the-Chat/m-p/2146180#M249" target="_blank">blog</a>
+- [GitHub](https://github.com/microsoft/PowerVirtualAgentsSamples/tree/c75ea6c4e0311e59a98d70b582c8e8184edca638)
+- [Blog](https://powerusers.microsoft.com/t5/Power-Platform-Integrations/Integrate-a-PVA-chatbot-with-Azure-OpenAI-ChatGPT-using-the-Chat/m-p/2146180#M249)
