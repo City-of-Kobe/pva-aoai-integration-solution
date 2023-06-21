@@ -11,17 +11,23 @@
 
 ## 導入方法
 以下の手順に従って導入してください。
-なお、以下の手順を行う前提として、Power Virtual Agentsが既に利用できる状態であり、かつ、Azure AD の設定および Azure OpenAI を利用するための Azureサブスクリプションの作成までが完了している必要があります。
-また、Teamsの特定のチームで利用する場合は、予めDataverse for Teams環境を用意しておいてください。  
-※ Dataverse for Teams環境は、Teams上からPower Appsを開き、当該チーム上で新規アプリを作成することで環境が作成できます。(実際にキャンバスアプリ等を作成する必要はありません)
+なお、以下の手順を行う前提として、Power Virtual Agentsが既に利用できる状態であり、かつ、Azure AD の設定および Azure OpenAI を利用するための Azureサブスクリプションの作成までが完了している必要があります。   
+[(参考)Microsoft Azure](https://azure.microsoft.com/ja-jp/free/cognitive-services/)  
+[(参考)Microsoft Power Virtual Agents](https://powervirtualagents.microsoft.com/ja-jp/)  
 
-1. Azure OpenAI Service においてGPTのインスタンスをセットアップし、API KeyとURIを取得  
-※ API KeyとURIは、Azure OpenAI Studioの、プレイグラウンド > チャット > チャットセッション > コードの表示 から確認できます。
-2. 本リポジトリに公開しているインポート用のファイル(Zipファイル)をダウンロード
-3. Power Apps を開く  
+また、Teamsの特定のチームで利用する場合は、予めDataverse for Teams環境を用意しておいてください。  
+Dataverse for Teams環境は、Teams上からPower Appsを開き、当該チーム上で新規アプリを作成することで環境が作成できます。(実際にキャンバスアプリ等を作成する必要はありません)  
+[(参考)Microsoft Dataverse for Teams について | Microsoft Learn](https://learn.microsoft.com/ja-jp/power-platform/admin/about-teams-environment)
+
+1. Azure OpenAI Service にてリソースを作成し、GPTのモデルをデプロイした上で、API KeyとURIを取得  
+[(参考)Azure OpenAI Service を使用してリソースを作成し、モデルをデプロイする | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal)   
+※ API KeyとURIは、Azure OpenAI Studioの、プレイグラウンド > チャット > チャットセッション > コードの表示 から確認できます。  
+[(参考)モデルのデプロイと Azure OpenAI Service を使用したテキストの生成を行う | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/quickstart?tabs=command-line&pivots=programming-language-studio)
+3. 本リポジトリに公開しているインポート用のファイル(Zipファイル)をダウンロード
+4. Power Apps を開く  
 ※ Teamsの特定のチームで利用する場合は、予め作成したDataverse for Teams環境に移動する
-4. 画面左側のメニューから「ソリューション」を選択
-5. ソリューションの画面の上部にある「ソリューションをインポート」を選択
+5. 画面左側のメニューから「ソリューション」を選択
+6. ソリューションの画面の上部にある「ソリューションをインポート」を選択
 7. ファイル選択画面が表示されるため、2.でダウンロードしたZipファイルを選択し「次へ」を選択
 8. 環境変数に1.で取得したAPI KeyとURIを設定のうえ、インポートする
 9. インポートにより、31つのオブジェクトがインポートされたことを確認  
