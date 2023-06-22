@@ -80,10 +80,6 @@ Dataverse for Teams環境は、Teams上からPower Appsを開き、当該チー�
 会話のセッションについては Power Virtual Agents の仕様に則り、最後の会話から30分程度で切れます。  
 [(参考)請求済みセッションを表示する (プレビュー) | Microsoft Learn](https://learn.microsoft.com/ja-jp/power-virtual-agents/analytics-billed-sessions)  
 
-この変数``bot.FullDialog``を Power Automate のフローに渡し、ユーザーが入力したプロンプトと併せてGPTにリクエストします。
-3.の処理の際は、変数``bot.FullDialog``の内容はGPTのリクエストには含めず、かつプロンプトにより直前までの会話の文脈を無視するよう指示することで、擬似的にリセットします。  
-このため、リセット以降もセッションの継続中は変数``bot.FullDialog``の内容は維持され、以後のGPTへのリクエストに含まれます。(なので、状況によっては会話の文脈を加味してしまう場合があります。)
-
 ## ライセンス・許諾
 このリポジトリで公開しているソリューションの著作権は神戸市に帰属しますが、MITのもと配布されています。
 MITに従えば、どなたでも利用、改変、及び再配布が可能です。
