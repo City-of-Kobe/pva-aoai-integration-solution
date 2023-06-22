@@ -1,7 +1,7 @@
 # Power Virtual Agents with Azure OpenAI Service Integration Solution
 
 ## 概要
-このリポジトリは、神戸市役所でのChatGPTの試行運用に向けて作成したフロー等をソリューション化し公開するものです。
+このリポジトリは、神戸市役所でのChatGPTの試行利用に向けて作成したフロー等をソリューション化し公開するものです。
 このソリューションを利用することで、Power Virtual Agents から Azure OpenAI Service にデプロイしたGPTインスタンスとやりとりするためのフローが利用できます。
 また、利用状況やコストの分析のため、Azure OpenAI Service とのやりとり内容を Dataverse に作成したログ用のデータベースに保存する機能も備えています。
 
