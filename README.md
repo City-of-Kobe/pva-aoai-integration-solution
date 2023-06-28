@@ -27,7 +27,7 @@ Dataverse for Teams環境は、Teams上からPower Appsを開き、当該チー�
 [(参考)Azure OpenAI Service を使用してリソースを作成し、モデルをデプロイする | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal)   
 ※ API KeyとURIは、Azure OpenAI Studioの、プレイグラウンド > チャット > チャットセッション > コードの表示 から確認できます。  
 [(参考)モデルのデプロイと Azure OpenAI Service を使用したテキストの生成を行う | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/cognitive-services/openai/quickstart?tabs=command-line&pivots=programming-language-studio)
-3. 本リポジトリに公開している[インポート用のファイル(Zipファイル)](https://github.com/City-of-Kobe/pva-aoai-integration-solution/blob/main/PVAAOAIIntegrationSolution_1_0_0_1.zip)をダウンロード
+3. 本リポジトリに公開している[インポート用のファイル(Zipファイル)](https://github.com/City-of-Kobe/pva-aoai-integration-solution/blob/main/PVAAOAIIntegrationSolution_1_0_0_2.zip)をダウンロード
 4. Power Apps を開く  
 ※ Teamsの特定のチームで利用する場合は、予め作成したDataverse for Teams環境に移動する
 5. 画面左側のメニューから「ソリューション」を選択
