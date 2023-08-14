@@ -10,7 +10,7 @@
 また、Teams で使用する場合は、Teams を利用できる状態である必要があります。
 
 <p align="center">
-  <img src="https://github.com/City-of-Kobe/pva-aoai-integration-solution/blob/main/EnvImage.jpg" />
+  <img src="https://github.com/City-of-Kobe/pva-aoai-integration-solution/assets/46814044/db3f7428-be3d-4fb5-a10f-9413eb6b2329" />
 </p>
 
 ## 導入方法
